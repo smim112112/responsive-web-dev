@@ -157,7 +157,97 @@ footer input[type="text"], footer input[type="email"],footer textarea{
 
 /* responsive part */
 @media  screen and (max-width:576px) {
-    .skills-container{
+    nav{
+        flex-direction: column;
+        align-items: flex-center;
+        margin: 20px;
+    }
+    nav ul{
+        flex-direction: column;
+        align-items: flex-center;
+        gap: 10px;
+        margin: 10px 0;
+        padding: 0;
+    }
+    .nav-title{
+        font-size: 30px;
+    }
+    .banner{
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+        text-align: center;
+    }
+    .banner-content{
+        max-width: 100%;
+    }
+    .banner-title {
+        font-size: 45px;
+        line-height: 1.2;
+    }
+    .banner-greetings {
+        font-size: 28px;
+    }
+
+    .banner-profile-pic {
+       width: 100%;
+       margin-top: 20px;
+    }
+
+  /* main area */
+    main {
+       padding: 50px 20px;
+    }
+
+    .about-items,
+    .skills-container,
+    .resume-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .about,
+    footer {
+        padding: 20px;
+    }
+
+  /* footer fix */
+    footer {
+       flex-direction: column;
+       gap: 30px;
+    }
+
+    .footer-column {
+       width: 100%;
+    }
+
+    footer input[type="text"],
+    footer input[type="email"],
+    footer textarea {
+       width: calc(100% - 40px); 
+    }
+
+  /* heading smaller */
+    .section-title {
+       font-size: 28px;
+    }
+
+  /* background image hide */
+    .header {
+        background-image: none;
+    }
+
+  /* button full width (optional) */
+    .btn-primary {
+       width: 100%;
+       padding: 15px;
+       margin-top: 10px;
+    }
+}
+
+
+    /* .skills-container{
         flex-direction: column;
     }
     .resume-container{
@@ -192,7 +282,7 @@ footer input[type="text"], footer input[type="email"],footer textarea{
      nav ,nav > ul{
         flex-direction: column;
         margin: 20px;
-     }
-}
+     } */
+
 
 
